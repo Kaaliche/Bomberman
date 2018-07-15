@@ -15,14 +15,11 @@ class Ai {
     public:
         Ai();
         Ai(int, std::string);
-
-    int getId() const;
-
-    void setId(int id);
-
-    std::string getName() const;
-
-    void setName(std::string name);
+        int getId() const;
+        void setId(int id);
+        std::string getName() const;
+        void setName(std::string name);
+        //void play();
 };
 
 #endif //BOMBERMAN_AI_HPP

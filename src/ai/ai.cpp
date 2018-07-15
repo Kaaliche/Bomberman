@@ -30,3 +30,10 @@ std::string Ai::getName() const {
 void Ai::setName(std::string name) {
     Ai::name = name;
 }
+
+
+/* TODO : Implement AI behaviour
+void Ai::play(){
+
+}*/
+

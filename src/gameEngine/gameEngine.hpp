@@ -24,6 +24,10 @@ class gameEngine{
         gameEngine(int, int, int, int, int, int, int**);
         int** initBoard(int, int);
         void initPlayers();
+        void updateBoard();
+        void updatePlayers();
+        void updateBombs();
+        void updateEnvironment();
 
 };
 
