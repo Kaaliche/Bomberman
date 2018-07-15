@@ -7,6 +7,22 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+
+struct player {
+    int id;
+    int maxBombs;
+    int bombRadius;
+    bool remoteBomb;
+} player;
+
+struct bomb {
+    int delay;
+    int radius;
+} bomb;
+
+typedef std::vector<player> players;
+typedef std::vector<bomb> bombStack;
 
 class gameEngine{
     private:

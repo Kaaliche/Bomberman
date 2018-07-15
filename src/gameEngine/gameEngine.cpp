@@ -64,7 +64,7 @@ void gameEngine::initPlayers(){
 /*
  *
  * Update board during each turn
- * Taking account of the players + bombs + environment
+ * Taking account of the players + bombs + environment (if destroyable)
  *
  */
 void gameEngine::updateBoard(){

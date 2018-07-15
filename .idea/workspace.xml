@@ -12,11 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86c7f21-3787-4f89-8565-7768faa2245e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/ai.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/ai.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ai/ai.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ai/ai.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameEngine/gameEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameEngine/gameEngine.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameEngine/gameEngine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameEngine/gameEngine.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -47,17 +42,17 @@
       <file leaf-file-name="ai.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ai/ai.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="417">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameEngine.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameEngine.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gameEngine/gameEngine.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="e#109#126#0" expanded="true" />
               </folding>
@@ -65,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gameEngine.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gameEngine.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gameEngine/gameEngine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+            <state relative-caret-position="-18">
+              <caret line="66" column="71" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -85,8 +80,8 @@
         <option value="$PROJECT_DIR$/src/ai/ai.h" />
         <option value="$PROJECT_DIR$/src/ai/ai.hpp" />
         <option value="$PROJECT_DIR$/src/ai/ai.cpp" />
-        <option value="$PROJECT_DIR$/src/gameEngine/gameEngine.hpp" />
         <option value="$PROJECT_DIR$/src/gameEngine/gameEngine.cpp" />
+        <option value="$PROJECT_DIR$/src/gameEngine/gameEngine.hpp" />
       </list>
     </option>
   </component>
@@ -178,12 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531473314812</updated>
       <workItem from="1531473316534" duration="6125000" />
-      <workItem from="1531651469565" duration="8401000" />
+      <workItem from="1531651469565" duration="9665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14526000" />
+    <option name="totallyTimeSpent" value="15790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1297" height="675" extended-state="6" />
@@ -288,25 +283,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ai/ai.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="417">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gameEngine/gameEngine.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#109#126#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gameEngine/gameEngine.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="97" column="38" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        <state relative-caret-position="-18">
+          <caret line="66" column="71" selection-start-line="66" selection-start-column="71" selection-end-line="66" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gameEngine/gameEngine.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#109#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
