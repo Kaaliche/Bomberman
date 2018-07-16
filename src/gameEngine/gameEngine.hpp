@@ -46,7 +46,7 @@ class gameEngine{
         void updatePlayers();
         void updateBombs();
         void updateEnvironment();
-        std::tuple<int, int> getPosition(struct player);
+        std::tuple<int, int> getPosition(struct player) const;
 
 };
 

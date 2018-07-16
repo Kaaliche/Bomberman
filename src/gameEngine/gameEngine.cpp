@@ -111,7 +111,7 @@ void gameEngine::updateEnvironment() {
  * Get the position of player
  *
  */
-std::tuple<int, int> gameEngine::getPosition(struct player p) {
+std::tuple<int, int> gameEngine::getPosition(struct player p) const{
     //std::tuple<int, int> pos(this->width, this->height);
     return p.pos;
 }
