@@ -21,8 +21,8 @@ struct bomb {
     int radius;
 } bomb;
 
-typedef std::vector<player> players;
-typedef std::vector<bomb> bombStack;
+typedef std::vector<struct player> players;
+typedef std::vector<struct bomb> bombStack;
 
 class gameEngine{
     private:

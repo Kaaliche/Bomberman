@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adr1pet/CLionProjects/Bomberman/main.cpp
+iostream
+-
+
+/home/adr1pet/CLionProjects/Bomberman/src/ai/ai.cpp
+ai.hpp
+/home/adr1pet/CLionProjects/Bomberman/src/ai/ai.hpp
+
+/home/adr1pet/CLionProjects/Bomberman/src/ai/ai.hpp
+string
+-
+
+/home/adr1pet/CLionProjects/Bomberman/src/gameEngine/gameEngine.cpp
+gameEngine.hpp
+/home/adr1pet/CLionProjects/Bomberman/src/gameEngine/gameEngine.hpp
+
+/home/adr1pet/CLionProjects/Bomberman/src/gameEngine/gameEngine.hpp
+string
+-
+iostream
+-
+vector
+-
+
