@@ -113,6 +113,6 @@ void gameEngine::updateEnvironment() {
  */
 std::tuple<int, int> gameEngine::getPosition(struct player p) {
     //std::tuple<int, int> pos(this->width, this->height);
-    return player.pos;
+    return p.pos;
 }
 
