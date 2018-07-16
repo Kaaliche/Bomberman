@@ -8,12 +8,14 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <tuple>
 
 struct player {
     int id;
     int maxBombs;
     int bombRadius;
     bool remoteBomb;
+    std::tuple<int, int> pos;
 } player;
 
 struct bomb {
@@ -44,6 +46,7 @@ class gameEngine{
         void updatePlayers();
         void updateBombs();
         void updateEnvironment();
+        std::tuple<int, int> getPosition(struct player);
 
 };
 

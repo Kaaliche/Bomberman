@@ -27,8 +27,10 @@ gameEngine::gameEngine(int width, int height, int delay, int radius, int nbBombe
     this->radius = radius;
     if(nbBombermen > 4) {
         this->nbBombermen = 4;
+    } else if (nbBombermen < 2) {
+        this->nbBombermen = 2;
     } else {
-        this->nbBombermen = nbBombermen;
+            this->nbBombermen = nbBombermen;
     }
     this->bombs = bombs;
     this->board = initBoard(width, height);
@@ -109,5 +111,8 @@ void gameEngine::updateEnvironment() {
  * Get the position of player
  *
  */
-
+std::tuple<int, int> gameEngine::getPosition(struct player p) {
+    //std::tuple<int, int> pos(this->width, this->height);
+    return player.pos;
+}
 
