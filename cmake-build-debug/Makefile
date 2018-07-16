@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/adr1pet/clion-2018.1.5/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/soat/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/adr1pet/clion-2018.1.5/bin/cmake/bin/cmake -E remove -f
+RM = /home/soat/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adr1pet/CLionProjects/Bomberman
+CMAKE_SOURCE_DIR = /home/soat/Bomberman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adr1pet/CLionProjects/Bomberman/cmake-build-debug
+CMAKE_BINARY_DIR = /home/soat/Bomberman/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/adr1pet/CLionProjects/Bomberman/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/adr1pet/clion-2018.1.5/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/soat/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/adr1pet/clion-2018.1.5/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/soat/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles /home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/soat/Bomberman/cmake-build-debug/CMakeFiles /home/soat/Bomberman/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/soat/Bomberman/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ src/ai/ai.cpp.s:
 	$(MAKE) -f CMakeFiles/Bomberman.dir/build.make CMakeFiles/Bomberman.dir/src/ai/ai.cpp.s
 .PHONY : src/ai/ai.cpp.s
 
+src/communication/communication.o: src/communication/communication.cpp.o
+
+.PHONY : src/communication/communication.o
+
+# target to build an object file
+src/communication/communication.cpp.o:
+	$(MAKE) -f CMakeFiles/Bomberman.dir/build.make CMakeFiles/Bomberman.dir/src/communication/communication.cpp.o
+.PHONY : src/communication/communication.cpp.o
+
+src/communication/communication.i: src/communication/communication.cpp.i
+
+.PHONY : src/communication/communication.i
+
+# target to preprocess a source file
+src/communication/communication.cpp.i:
+	$(MAKE) -f CMakeFiles/Bomberman.dir/build.make CMakeFiles/Bomberman.dir/src/communication/communication.cpp.i
+.PHONY : src/communication/communication.cpp.i
+
+src/communication/communication.s: src/communication/communication.cpp.s
+
+.PHONY : src/communication/communication.s
+
+# target to generate assembly for a file
+src/communication/communication.cpp.s:
+	$(MAKE) -f CMakeFiles/Bomberman.dir/build.make CMakeFiles/Bomberman.dir/src/communication/communication.cpp.s
+.PHONY : src/communication/communication.cpp.s
+
 src/gameEngine/gameEngine.o: src/gameEngine/gameEngine.cpp.o
 
 .PHONY : src/gameEngine/gameEngine.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/ai/ai.o"
 	@echo "... src/ai/ai.i"
 	@echo "... src/ai/ai.s"
+	@echo "... src/communication/communication.o"
+	@echo "... src/communication/communication.i"
+	@echo "... src/communication/communication.s"
 	@echo "... src/gameEngine/gameEngine.o"
 	@echo "... src/gameEngine/gameEngine.i"
 	@echo "... src/gameEngine/gameEngine.s"

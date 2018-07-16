@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adr1pet/CLionProjects/Bomberman/main.cpp" "/home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/main.cpp.o"
-  "/home/adr1pet/CLionProjects/Bomberman/src/ai/ai.cpp" "/home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/ai/ai.cpp.o"
-  "/home/adr1pet/CLionProjects/Bomberman/src/gameEngine/gameEngine.cpp" "/home/adr1pet/CLionProjects/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/gameEngine/gameEngine.cpp.o"
+  "/home/soat/Bomberman/main.cpp" "/home/soat/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/main.cpp.o"
+  "/home/soat/Bomberman/src/ai/ai.cpp" "/home/soat/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/ai/ai.cpp.o"
+  "/home/soat/Bomberman/src/communication/communication.cpp" "/home/soat/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/communication/communication.cpp.o"
+  "/home/soat/Bomberman/src/gameEngine/gameEngine.cpp" "/home/soat/Bomberman/cmake-build-debug/CMakeFiles/Bomberman.dir/src/gameEngine/gameEngine.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
